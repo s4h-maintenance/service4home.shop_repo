@@ -1,16 +1,23 @@
+*{
+  padding:0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .container{
   height:1000px;
   width: 100%;
-  background-color: aquamarine !important;
-  //background-image: url('https://joy1.videvo.net/videvo_files/video/free/2015-09/large_watermarked/wolken132_preview.mp4');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   position: relative;
-}
-h1{
-  position: absolute;
-  top:50;
-  left:50;
-  transform: translate(-50%, -50%);
+  video{
+    height: 100vh;
+    width: 100%;
+  }
+    
+  h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+  }
 }
